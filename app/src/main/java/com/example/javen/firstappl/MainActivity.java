@@ -1,17 +1,44 @@
 package com.example.javen.firstappl;
 
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
+import java.lang.reflect.Field;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TextView t1 = (TextView)findViewById(R.id.textView);
+        String s1 = "<font color='blue'><b>baidu:</b></font><br><img src = 'test_icon'/><br>";
+        s1 += "<a href = 'http://www.baidu.com'>baidu</a>";
+        t1.setText(Html.fromHtml(s1, new Html.ImageGetter() {
+            @Override
+            public Drawable getDrawable(String source) {
+                Drawable draw = null;
+                try {
+                    Field field = R.drawable.class.getField(source);
+                    int resourceId = Integer.parseInt(field.get(null).toString());
+                    draw = getResources().getDrawable(resourceId);
+                    draw.setBounds(0, 0, draw.getIntrinsicWidth(), draw.getIntrinsicHeight());
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                return draw;
+            }
+        }, null));
+        t1.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     @Override
