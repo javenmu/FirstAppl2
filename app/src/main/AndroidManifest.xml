@@ -47,6 +47,10 @@
             android:name="com.example.javen.progressbar.ProgressBarActivity"
             android:label="@string/title_activity_progress_bar" >
         </activity>
+        <activity
+            android:name="com.example.javen.seekBar.SeekBarActivity"
+            android:label="@string/title_activity_seek_bar" >
+        </activity>
     </application>
 
 </manifest>

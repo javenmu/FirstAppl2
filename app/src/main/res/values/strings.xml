@@ -8,4 +8,5 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_toggle_btn_switch">ToggleBtnSwitchActivity</string>
     <string name="title_activity_progress_bar">ProgressBarActivity</string>
+    <string name="title_activity_seek_bar">SeekBarActivity</string>
 </resources>
