@@ -26,6 +26,27 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/edit_text_with_del_info" />
         </receiver>
+
+        <activity
+            android:name="com.example.javen.imageview.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.javen.radiobutton.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.javen.ToggleBtnSwitchActivity"
+            android:label="@string/title_activity_toggle_btn_switch" >
+        </activity>
+        <activity
+            android:name="com.example.javen.togglebtnswitch.ToggleBtnSwitchActivity"
+            android:label="@string/title_activity_toggle_btn_switch" >
+        </activity>
+        <activity
+            android:name="com.example.javen.progressbar.ProgressBarActivity"
+            android:label="@string/title_activity_progress_bar" >
+        </activity>
     </application>
 
 </manifest>

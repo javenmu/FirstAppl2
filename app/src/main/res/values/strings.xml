@@ -5,4 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_toggle_btn_switch">ToggleBtnSwitchActivity</string>
+    <string name="title_activity_progress_bar">ProgressBarActivity</string>
 </resources>
