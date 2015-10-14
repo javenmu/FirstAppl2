@@ -13,13 +13,26 @@
         android:layout_height="wrap_content"
         android:id="@+id/seekBar"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:indeterminate="false" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
         android:id="@+id/seekbartext" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar2"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/sb_bar"
+        android:thumb="@drawable/sb_thumb"
+        android:maxHeight="5.0dp"
+        android:minHeight="5.0dp"
+        android:max="100" />
 
 
 </LinearLayout>
