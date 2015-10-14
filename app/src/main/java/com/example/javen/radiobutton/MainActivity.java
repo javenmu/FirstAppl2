@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_radio_btn);
 
         RadioGroup radgroup = (RadioGroup) findViewById(R.id.radioGroup);
-        //第一种获得单选按钮值的方法
-        //为radioGroup设置一个监听器:setOnCheckedChanged()
+        //绗竴绉嶈幏寰楀崟閫夋寜閽�肩殑鏂规硶
+        //涓簉adioGroup璁剧疆涓�涓洃鍚櫒:setOnCheckedChanged()
         radgroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
