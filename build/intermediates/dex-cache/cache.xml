@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="D:\android_proj\FirstApp\FirstAppl\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="D:\android_proj\FirstApp\FirstAppl\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-023dcde1c5b9e46ffe2a61d664f5e8c0558187d8.jar" />
-    </item>
-    <item
-        jar="D:\android_proj\FirstApp\FirstAppl\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jar="D:\android_proj\FirstAppl2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="D:\android_proj\FirstApp\FirstAppl\app\build\intermediates\pre-dexed\debug\classes-bf0efca41af9644276048d1da2dee43a50afa855.jar" />
+        <dex dex="D:\android_proj\FirstAppl2\app\build\intermediates\pre-dexed\debug\classes-8229e08408f58ddac0782056c03c419114d2a87f.jar" />
     </item>
     <item
         jar="D:\Program Files\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="D:\android_proj\FirstApp\FirstAppl\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-49ab68470b6ba8a3dba80330811253492fa8e1ad.jar" />
+        <dex dex="D:\android_proj\FirstAppl2\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-49ab68470b6ba8a3dba80330811253492fa8e1ad.jar" />
     </item>
     <item
-        jar="D:\android_proj\FirstApp\FirstAppl\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jar="D:\android_proj\FirstAppl2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="D:\android_proj\FirstApp\FirstAppl\app\build\intermediates\pre-dexed\debug\classes-204efb8472249fed06d0b631bca60a2dd40ecf98.jar" />
+        <dex dex="D:\android_proj\FirstAppl2\app\build\intermediates\pre-dexed\debug\classes-8798d7be6ee9ec2fbab7b6e40b3c09e6b9be7f7e.jar" />
+    </item>
+    <item
+        jar="D:\android_proj\FirstAppl2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\android_proj\FirstAppl2\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-42828ec8df6326fb97ea76d4086f76949f7dea66.jar" />
     </item>
 
 </items>

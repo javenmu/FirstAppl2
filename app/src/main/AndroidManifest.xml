@@ -51,6 +51,18 @@
             android:name="com.example.javen.seekBar.SeekBarActivity"
             android:label="@string/title_activity_seek_bar" >
         </activity>
+        <activity
+            android:name="com.example.javen.dateTimePicker.DateTimePickerActivity"
+            android:label="@string/title_activity_date_time_picker" >
+        </activity>
+        <activity
+            android:name="com.example.javen.dateTimePicker.CalendarActivity"
+            android:label="@string/title_activity_calendar" >
+        </activity>
+        <activity
+            android:name="com.example.javen.Adapter.AdapterActivity"
+            android:label="@string/title_activity_adapter" >
+        </activity>
     </application>
 
 </manifest>

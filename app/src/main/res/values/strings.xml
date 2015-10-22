@@ -9,4 +9,7 @@
     <string name="title_activity_toggle_btn_switch">ToggleBtnSwitchActivity</string>
     <string name="title_activity_progress_bar">ProgressBarActivity</string>
     <string name="title_activity_seek_bar">SeekBarActivity</string>
+    <string name="title_activity_date_time_picker">DateTimePickerActivity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_adapter">AdapterActivity</string>
 </resources>
