@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FirstAppl</string>
 
@@ -12,4 +13,15 @@
     <string name="title_activity_date_time_picker">DateTimePickerActivity</string>
     <string name="title_activity_calendar">CalendarActivity</string>
     <string name="title_activity_adapter">AdapterActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_list_view_focus">ListViewFocusActivity</string>
+    <string name="title_activity_base_adapter">BaseAdapterActivity</string>
+
+    <item name="Tag_APP" type="id"></item>
+    <item name="Tag_Book" type="id"></item>
+    <string name="title_activity_multi_layout_view">MultiLayoutViewActivity</string>
+    <string name="title_activity_grid_view">GridViewActivity</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="spin_title">分段选择</string>
+    <string name="title_activity_auto_compl">AutoComplActivity</string>
 </resources>

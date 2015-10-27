@@ -36,10 +36,6 @@
             android:label="@string/title_activity_main" >
         </activity>
         <activity
-            android:name="com.example.javen.ToggleBtnSwitchActivity"
-            android:label="@string/title_activity_toggle_btn_switch" >
-        </activity>
-        <activity
             android:name="com.example.javen.togglebtnswitch.ToggleBtnSwitchActivity"
             android:label="@string/title_activity_toggle_btn_switch" >
         </activity>
@@ -62,6 +58,30 @@
         <activity
             android:name="com.example.javen.Adapter.AdapterActivity"
             android:label="@string/title_activity_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.javen.ListView.ListViewActivity"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name="com.example.javen.BasicAdapter.BaseAdapterActivity"
+            android:label="@string/title_activity_base_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.javen.MultiLayoutListView.MultiLayoutViewActivity"
+            android:label="@string/title_activity_multi_layout_view" >
+        </activity>
+        <activity
+            android:name="com.example.javen.GridView.GridViewActivity"
+            android:label="@string/title_activity_grid_view" >
+        </activity>
+        <activity
+            android:name="com.example.javen.Spinner.SpinnerActivity"
+            android:label="@string/title_activity_spinner" >
+        </activity>
+        <activity
+            android:name="com.example.javen.AutoComplete.AutoComplActivity"
+            android:label="@string/title_activity_auto_compl" >
         </activity>
     </application>
 
