@@ -24,4 +24,7 @@
     <string name="title_activity_spinner">SpinnerActivity</string>
     <string name="spin_title">分段选择</string>
     <string name="title_activity_auto_compl">AutoComplActivity</string>
+    <string name="title_activity_expand_list_view">ExpandListViewActivity</string>
+    <string name="title_activity_static_flipper">StaticFlipperActivity</string>
+    <string name="title_activity_dynamic_flipper">DynamicFlipperActivity</string>
 </resources>

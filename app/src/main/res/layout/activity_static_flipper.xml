@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.javen.ViewFlipper.StaticFlipperActivity">
+
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewFlipper_static"
+        android:inAnimation="@anim/right_in"
+        android:outAnimation="@anim/right_out"
+        android:flipInterval="3000">
+
+        <include layout="@layout/view_flipper_item_1"/>
+        <include layout="@layout/view_flipper_item_2"/>
+        <include layout="@layout/view_flipper_item_3"/>
+        <include layout="@layout/view_flipper_item_4"/>
+
+    </ViewFlipper>
+</RelativeLayout>
